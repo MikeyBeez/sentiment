@@ -1,0 +1,148 @@
+{
+  "model1": {
+    "train": [
+      {
+        "epoch": 1,
+        "loss": 0.2119,
+        "sent_loss": 0.2119,
+        "lm_loss": null,
+        "accuracy": 0.9278
+      },
+      {
+        "epoch": 2,
+        "loss": 0.1267,
+        "sent_loss": 0.1267,
+        "lm_loss": null,
+        "accuracy": 0.9633
+      },
+      {
+        "epoch": 3,
+        "loss": 0.0576,
+        "sent_loss": 0.0576,
+        "lm_loss": null,
+        "accuracy": 0.9845
+      }
+    ],
+    "val": [
+      {
+        "accuracy": 0.9438,
+        "sent_loss": 0.203,
+        "lm_loss": null,
+        "epoch": 1
+      },
+      {
+        "accuracy": 0.9541,
+        "sent_loss": 0.1602,
+        "lm_loss": null,
+        "epoch": 2
+      },
+      {
+        "accuracy": 0.9622,
+        "sent_loss": 0.1578,
+        "lm_loss": null,
+        "epoch": 3
+      }
+    ],
+    "training_time_min": 380.4
+  },
+  "model2": {
+    "train": [
+      {
+        "epoch": 1,
+        "loss": 1.4231,
+        "sent_loss": 0.1747,
+        "lm_loss": 2.6716,
+        "accuracy": 0.9379
+      },
+      {
+        "epoch": 2,
+        "loss": 0.7141,
+        "sent_loss": 0.0833,
+        "lm_loss": 1.3448,
+        "accuracy": 0.9727
+      },
+      {
+        "epoch": 3,
+        "loss": 0.4575,
+        "sent_loss": 0.0326,
+        "lm_loss": 0.8825,
+        "accuracy": 0.988
+      }
+    ],
+    "val": [
+      {
+        "accuracy": 0.9587,
+        "sent_loss": 0.1465,
+        "lm_loss": 3.8771,
+        "epoch": 1
+      },
+      {
+        "accuracy": 0.9679,
+        "sent_loss": 0.1343,
+        "lm_loss": 4.3116,
+        "epoch": 2
+      },
+      {
+        "accuracy": 0.9656,
+        "sent_loss": 0.1455,
+        "lm_loss": 4.6865,
+        "epoch": 3
+      }
+    ],
+    "training_time_min": 416.5
+  },
+  "model3": {
+    "train": [
+      {
+        "epoch": 1,
+        "loss": 1.6697,
+        "sent_loss": 0.1817,
+        "lm_loss": 3.1577,
+        "accuracy": 0.9365
+      },
+      {
+        "epoch": 2,
+        "loss": 1.0441,
+        "sent_loss": 0.0845,
+        "lm_loss": 2.0037,
+        "accuracy": 0.9724
+      },
+      {
+        "epoch": 3,
+        "loss": 0.7926,
+        "sent_loss": 0.0341,
+        "lm_loss": 1.5512,
+        "accuracy": 0.9875
+      }
+    ],
+    "val": [
+      {
+        "accuracy": 0.9553,
+        "sent_loss": 0.1461,
+        "lm_loss": 3.886,
+        "epoch": 1
+      },
+      {
+        "accuracy": 0.9667,
+        "sent_loss": 0.1254,
+        "lm_loss": 4.3551,
+        "epoch": 2
+      },
+      {
+        "accuracy": 0.9667,
+        "sent_loss": 0.1302,
+        "lm_loss": 4.6955,
+        "epoch": 3
+      }
+    ],
+    "cluster": {
+      "ari": 0.8331,
+      "cluster_accuracy": 0.9564
+    },
+    "engram_cos": {
+      "within": 0.9533,
+      "between": 0.8375
+    },
+    "training_time_min": 634.5
+  }
+}

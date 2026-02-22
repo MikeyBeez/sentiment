@@ -1,0 +1,21 @@
+# Model checkpoints (too large for git)
+results_7b/model*/
+results_agnews/model*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

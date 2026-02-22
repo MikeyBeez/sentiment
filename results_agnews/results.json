@@ -1,0 +1,154 @@
+{
+  "model1": {
+    "train": [
+      {
+        "epoch": 1,
+        "loss": 0.4866,
+        "cls_loss": 0.4866,
+        "lm_loss": null,
+        "accuracy": 0.824
+      },
+      {
+        "epoch": 2,
+        "loss": 0.3352,
+        "cls_loss": 0.3352,
+        "lm_loss": null,
+        "accuracy": 0.8941
+      },
+      {
+        "epoch": 3,
+        "loss": 0.2778,
+        "cls_loss": 0.2778,
+        "lm_loss": null,
+        "accuracy": 0.9113
+      }
+    ],
+    "val": [
+      {
+        "accuracy": 0.8841,
+        "cls_loss": 0.3486,
+        "lm_loss": null,
+        "epoch": 1
+      },
+      {
+        "accuracy": 0.8991,
+        "cls_loss": 0.3288,
+        "lm_loss": null,
+        "epoch": 2
+      },
+      {
+        "accuracy": 0.9076,
+        "cls_loss": 0.2961,
+        "lm_loss": null,
+        "epoch": 3
+      }
+    ],
+    "training_time_min": 1358.4
+  },
+  "model2": {
+    "train": [
+      {
+        "epoch": 1,
+        "loss": 1.2101,
+        "cls_loss": 0.2119,
+        "lm_loss": 2.2083,
+        "accuracy": 0.9296
+      },
+      {
+        "epoch": 2,
+        "loss": 1.0005,
+        "cls_loss": 0.103,
+        "lm_loss": 1.898,
+        "accuracy": 0.9672
+      },
+      {
+        "epoch": 3,
+        "loss": 0.7937,
+        "cls_loss": 0.0359,
+        "lm_loss": 1.5515,
+        "accuracy": 0.9883
+      }
+    ],
+    "val": [
+      {
+        "accuracy": 0.9503,
+        "cls_loss": 0.1597,
+        "lm_loss": 2.1462,
+        "epoch": 1
+      },
+      {
+        "accuracy": 0.9563,
+        "cls_loss": 0.1545,
+        "lm_loss": 2.0599,
+        "epoch": 2
+      },
+      {
+        "accuracy": 0.9554,
+        "cls_loss": 0.1979,
+        "lm_loss": 2.0946,
+        "epoch": 3
+      }
+    ],
+    "training_time_min": 1488.4
+  },
+  "model3": {
+    "train": [
+      {
+        "epoch": 1,
+        "loss": 1.2771,
+        "cls_loss": 0.2128,
+        "lm_loss": 2.3414,
+        "accuracy": 0.9299
+      },
+      {
+        "epoch": 2,
+        "loss": 1.0675,
+        "cls_loss": 0.1046,
+        "lm_loss": 2.0304,
+        "accuracy": 0.967
+      },
+      {
+        "epoch": 3,
+        "loss": 0.8626,
+        "cls_loss": 0.0362,
+        "lm_loss": 1.689,
+        "accuracy": 0.9881
+      }
+    ],
+    "val": [
+      {
+        "accuracy": 0.9516,
+        "cls_loss": 0.1607,
+        "lm_loss": 2.25,
+        "epoch": 1
+      },
+      {
+        "accuracy": 0.9558,
+        "cls_loss": 0.1582,
+        "lm_loss": 2.166,
+        "epoch": 2
+      },
+      {
+        "accuracy": 0.9592,
+        "cls_loss": 0.19,
+        "lm_loss": 2.2008,
+        "epoch": 3
+      }
+    ],
+    "cluster": {
+      "ari": 0.8888,
+      "cluster_accuracy": 0.9564,
+      "mapping": {
+        "0": "Business",
+        "1": "Sci/Tech",
+        "2": "Sports",
+        "3": "World"
+      }
+    },
+    "engram_cos": {
+      "within": 0.8618,
+      "between": 0.5764
+    },
+    "training_time_min": 1953.4
+  }
+}
