@@ -1,0 +1,102 @@
+{
+  "sst2": {
+    "pretrained": {
+      "effective_rank": 498.09,
+      "participation_ratio": 224.26,
+      "stable_rank": 5.48,
+      "dims_90pct": 113,
+      "dims_95pct": 249,
+      "dims_99pct": 588,
+      "top1_variance": 0.1823,
+      "top10_variance": 0.6164,
+      "top50_variance": 0.8331,
+      "num_dimensions": 872
+    },
+    "model1": {
+      "effective_rank": 556.83,
+      "participation_ratio": 163.56,
+      "stable_rank": 1.49,
+      "dims_90pct": 94,
+      "dims_95pct": 261,
+      "dims_99pct": 620,
+      "top1_variance": 0.6701,
+      "top10_variance": 0.7942,
+      "top50_variance": 0.8714,
+      "num_dimensions": 872
+    },
+    "model2": {
+      "effective_rank": 657.96,
+      "participation_ratio": 408.58,
+      "stable_rank": 5.05,
+      "dims_90pct": 347,
+      "dims_95pct": 510,
+      "dims_99pct": 752,
+      "top1_variance": 0.1979,
+      "top10_variance": 0.4311,
+      "top50_variance": 0.6369,
+      "num_dimensions": 872
+    },
+    "model3": {
+      "effective_rank": 653.75,
+      "participation_ratio": 400.61,
+      "stable_rank": 5.44,
+      "dims_90pct": 342,
+      "dims_95pct": 506,
+      "dims_99pct": 750,
+      "top1_variance": 0.1837,
+      "top10_variance": 0.4456,
+      "top50_variance": 0.6488,
+      "num_dimensions": 872
+    }
+  },
+  "agnews": {
+    "pretrained": {
+      "effective_rank": 983.99,
+      "participation_ratio": 375.3,
+      "stable_rank": 7.06,
+      "dims_90pct": 160,
+      "dims_95pct": 374,
+      "dims_99pct": 1025,
+      "top1_variance": 0.1417,
+      "top10_variance": 0.5936,
+      "top50_variance": 0.8026,
+      "num_dimensions": 2000
+    },
+    "model1": {
+      "effective_rank": 12.57,
+      "participation_ratio": 5.16,
+      "stable_rank": 1.91,
+      "dims_90pct": 3,
+      "dims_95pct": 3,
+      "dims_99pct": 5,
+      "top1_variance": 0.524,
+      "top10_variance": 0.9992,
+      "top50_variance": 1.0,
+      "num_dimensions": 2000
+    },
+    "model2": {
+      "effective_rank": 1097.36,
+      "participation_ratio": 464.39,
+      "stable_rank": 8.14,
+      "dims_90pct": 248,
+      "dims_95pct": 515,
+      "dims_99pct": 1181,
+      "top1_variance": 0.1228,
+      "top10_variance": 0.55,
+      "top50_variance": 0.7506,
+      "num_dimensions": 2000
+    },
+    "model3": {
+      "effective_rank": 1095.88,
+      "participation_ratio": 466.21,
+      "stable_rank": 8.07,
+      "dims_90pct": 249,
+      "dims_95pct": 516,
+      "dims_99pct": 1180,
+      "top1_variance": 0.1239,
+      "top10_variance": 0.5455,
+      "top50_variance": 0.7493,
+      "num_dimensions": 2000
+    }
+  }
+}
